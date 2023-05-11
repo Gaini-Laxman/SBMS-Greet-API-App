@@ -1,0 +1,19 @@
+server:
+  port: 8081
+  address: localhost
+
+spring:
+  application:
+    name: GREET API
+  boot:
+    admin:
+      client:
+        url: http://localhost:1000/
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        
+              
