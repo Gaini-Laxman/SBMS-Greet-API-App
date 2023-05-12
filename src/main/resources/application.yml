@@ -1,10 +1,8 @@
-server:
-  port: 8081
-  address: localhost
+
 
 spring:
   application:
-    name: GREET API
+    name: GREET-API
   boot:
     admin:
       client:
